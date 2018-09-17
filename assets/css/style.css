@@ -1,0 +1,27 @@
+.container{
+   
+    font-family: cursive;
+    text-align: center;  
+}
+h1.hidden {
+    display: none;
+}
+.btn{
+   
+    width: 200px;
+    background: green;
+    padding: 10px;
+    font-size: 50px;
+    
+   
+}
+h2{
+    font-size: 50px;
+    color: green;
+}
+
+
+body{
+    background: linear-gradient(135deg, orange, orange 60%, cyan);
+}
+

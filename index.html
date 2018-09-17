@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="hidden">Score:</h1>
+        <h2>Totally Trivial Trivia!!! </h2>
+        <hr>
+        <h2>Time Remaining : <span id="timer"></span> </h2>
+
+
+        <form>
+            <h3>(1) The operating system is a:</h3>
+
+            <div class="radio-inline">
+                <label><input type="radio" name="capradio" value="1">System Software</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="capradio" value="2">Application Software</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="capradio" value="3">Utility Software</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="capradio" value="4">Malware</label>
+            </div>
+
+
+
+            <!-- <p id="answer1" style="display: none">The correct answer is : System Software </p> -->
+
+            <h3>(2) Files are organised in :</h3>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio2" value="1">RAM</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio2" value="2">Cache</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio2" value="3">Directories</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio2" value="4">None of the above</label>
+            </div>
+
+
+            <h3>(3) Computer Hardware is :</h3>
+            <div class="radio-inline">
+                <label><input type="radio" name="radiojack" value="1">A medium for Data Communications</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radiojack" value="2">A Physical Device that driven by data</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radiojack" value="3">A Physical Device that driven by software</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radiojack" value="4">All of the Above</label>
+            </div>
+
+            <h3>(4)The Windows desktop is :</h3>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio4" value="1">An area that is used for viewing documents</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio4" value="2">An area that organizes your documents</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio4" value="3">An area that gives you quick access to files</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio4" value="4">All of the above</label>
+            </div>
+
+            <h3>(5) A graphic artist would use :</h3>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio5" value="1">Accounting Software</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio5" value="2">Word Pressing Application</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio5" value="3">Graphics Presentation Software</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio5" value="4">Antivirus Software</label>
+            </div>
+
+            <h3>(6) The brain of any computer system is:</h3>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio6" value="1">ALU</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio6" value="2">Memory</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio6" value="3">CPU</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio6" value="4">Control Unit</label>
+            </div>
+
+            <h3>(7) What difference does the 5th generation computer have from other generation computers?</h3>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio7" value="1">Technological advancement</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio7" value="2">Scientific code</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio7" value="3">Object Oriented Programming</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio7" value="4">All of the above</label>
+            </div>
+
+            <h3>(8) Which of the following is the 1's complement of 10?</h3>
+            <div class="radio-inline">
+                <label><input type="radio" name="radioeight" value="1">01</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radioeight" value="2">110</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radioeight" value="3">11</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radioeight" value="4">10</label>
+            </div>
+
+            <h3>(9) The binary system uses powers of</h3>
+            <div class="radio-inline">
+                <label><input type="radio" name="radionine" value="1">02</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radionine" value="2">10</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radionine" value="3">8</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radionine" value="4">16</label>
+            </div>
+
+
+
+            <h3>(10) Which computer has been designed to be as compact as possible?</h3>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio10" value="1">Mini</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio10" value="2">Super computer</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio10" value="3">Micro computer</label>
+            </div>
+            <div class="radio-inline">
+                <label><input type="radio" name="radio10" value="4">Mainframe</label>
+            </div>
+
+        </form>
+    </div>
+    <br>
+    <br>
+    <!-- <div class="row">
+        <div class="col-md-5"></div>
+        <div class="col-md-7"> -->
+            <input class="btn btn-primary" type="submit" value="Submit">
+        <!-- </div>
+        
+    </div> -->
+
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
