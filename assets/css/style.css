@@ -3,9 +3,9 @@
     font-family: cursive;
     text-align: center;  
 }
-h1.hidden {
+/* h1.hidden {
     display: none;
-}
+} */
 .btn{
    
     width: 200px;
@@ -15,9 +15,16 @@ h1.hidden {
     
    
 }
-h2{
+.scoretext, .incorrecttext {
     font-size: 50px;
+    color : green;
+    margin-left: 20px;
+}
+h1{
+    font-size: 100px;
     color: green;
+    text-align: center;
+   
 }
 
 
@@ -25,3 +32,13 @@ body{
     background: linear-gradient(135deg, orange, orange 60%, cyan);
 }
 
+.start{
+    text-align: center;
+    padding-top: 200px;
+}
+#submit{
+    text-align: center;
+    padding: 0px;
+    
+    
+}

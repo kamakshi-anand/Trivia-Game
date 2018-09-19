@@ -13,9 +13,26 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="hidden">Score:</h1>
-        <h2>Totally Trivial Trivia!!! </h2>
+
+
+    <h1>Totally Trivial Trivia!!! </h1>
+
+    <div class="score" hidden>
+        <h2 class="scoretext">Correct Answers: </h2>
+
+      <!-- <h2 class="unansweredtext">Unanswered: </h2> -->
+    </div>
+
+    <div class="incorrect" hidden>
+        <h2 class="incorrecttext">Incorrect Answers: </h2>
+    </div>
+    <div class="start">
+        <input class="btn btn-start" type="button" value="Start">
+    </div>
+
+
+
+    <div class="container" hidden>
         <hr>
         <h2>Time Remaining : <span id="timer"></span> </h2>
 
@@ -24,16 +41,16 @@
             <h3>(1) The operating system is a:</h3>
 
             <div class="radio-inline">
-                <label><input type="radio" name="capradio" value="1">System Software</label>
+                <label><input type="radio" name="capradio" id="capradio" value="1">System Software</label>
             </div>
             <div class="radio-inline">
-                <label><input type="radio" name="capradio" value="2">Application Software</label>
+                <label><input type="radio" name="capradio" id="capradio" value="2">Application Software</label>
             </div>
             <div class="radio-inline">
-                <label><input type="radio" name="capradio" value="3">Utility Software</label>
+                <label><input type="radio" name="capradio" id="capradio" value="3">Utility Software</label>
             </div>
             <div class="radio-inline">
-                <label><input type="radio" name="capradio" value="4">Malware</label>
+                <label><input type="radio" name="capradio" id="capradio" value="4">Malware</label>
             </div>
 
 
@@ -176,8 +193,11 @@
     <!-- <div class="row">
         <div class="col-md-5"></div>
         <div class="col-md-7"> -->
-            <input class="btn btn-primary" type="submit" value="Submit">
-        <!-- </div>
+    <div id="submit" hidden>
+        <input class="btn btn-primary" type="button" value="Submit">
+    </div>
+
+    <!-- </div>
         
     </div> -->
 
