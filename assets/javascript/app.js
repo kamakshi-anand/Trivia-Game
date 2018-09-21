@@ -73,7 +73,7 @@ $(document).ready(function () {
             //create a variable and pass the current time into stopwatch.converter function--------
 
             //   var converted = stopwatch.timeConverter(stopwatch.time);
-            //ask anand about console.log--------------------------------------------very imp
+            
             console.log(stopwatch.time);
             $("#timer").text(stopwatch.time + " Seconds");
         },
@@ -187,7 +187,7 @@ $(document).ready(function () {
         //   var scoreElement= $(".score").text();
         //  alert(scoreElement);
         $(".score").text($(".score").text() + score);
-        alert($(".score").text());
+        //alert($(".score").text());
         //     alert($(".score").text());
         $(".score").show();
         $(".score").css("font-size", "50px");
@@ -216,8 +216,8 @@ $(document).ready(function () {
 
         $(".container").hide();
         $("#submit").hide();
-        $(".start").show();
-        //    btn btn-primary
+    
+       $(".giffy").show();
         $(".start").hide();
         stopwatch.reset();
 

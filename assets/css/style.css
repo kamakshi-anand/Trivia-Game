@@ -40,7 +40,12 @@ body{
 }
 #submit{
     text-align: center;
-    padding: 0px;
-    
-    
+    padding: 0px;    
+}
+
+.giffy{
+    text-align: center;
+}
+h3{
+    color: green;
 }
